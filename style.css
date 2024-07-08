@@ -17,6 +17,7 @@
 }
 .main{
     background-image: url(Images/background.jpeg);
+    background-size: cover;
 }
 #blp{
     padding-right: 50px;
@@ -39,6 +40,7 @@
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    padding-bottom: 1000px;
 }
 ul{
     display: flex;
@@ -61,4 +63,7 @@ li{
 }
 .menu{
     margin: 0px 50px 0px 300px;
+}
+.maintext{
+    color: white;
 }
