@@ -37,6 +37,8 @@
 .main{
     background-image: url(Images/background.jpeg);
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 ul{
     display: flex;
@@ -56,4 +58,7 @@ li{
     color: white;
     background-color: rgb(244, 196, 24);
     justify-content: center;
+}
+.menu{
+    margin: 0px 50px 0px 300px;
 }
