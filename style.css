@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 1000px;
+    padding-top: 100px;
 }
 ul{
     display: flex;
@@ -66,4 +67,16 @@ li{
 }
 .maintext{
     color: white;
+}
+#name{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 100px 10px 0px;
+    border-radius: 5px;
+}
+#message{
+    padding: 0px 100px 50px 0px;
+    border-radius: 5px;
+}
+.formdiv{
+    padding-left: 80px;
 }
