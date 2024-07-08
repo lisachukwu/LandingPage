@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     height: 50px;
-    margin-bottom: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     display: flex;
 }
 #phead{
@@ -11,7 +11,7 @@
 }
 .navigator{
     background-color: white;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 0px 20px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -37,7 +37,6 @@
 }
 .main{
     background-image: url(Images/background.jpeg);
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     padding-bottom: 1000px;
@@ -79,4 +78,17 @@ li{
 }
 .formdiv{
     padding-left: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: rgb(244, 196, 24);
+}
+button{
+    color: black;
+    background-color: rgb(244, 196, 24);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#gg{
+    color: white;
 }
