@@ -3,20 +3,45 @@
     color: white;
     height: 50px;
     margin-bottom: 0px 0px 10px 0px;
+    display: flex;
 }
 #phead{
     padding: 0px 0px 0px 50px;
-}
-.sm{
-    height: inherit;
-    width: inherit;
+    color: white;
 }
 .navigator{
     background-color: white;
     margin: 10px 20px 10px 20px;
-    border-style: solid;
-    border-color: brown;
+    display: flex;
+    justify-content: space-evenly;
 }
 .main{
     background-image: url(Images/background.jpeg);
+}
+#blp{
+    padding-right: 50px;
+}
+.phone{
+    padding: 50px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    padding: 50px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#ul1{
+    list-style: none;
+}
+.main{
+    background-image: url(Images/background.jpeg);
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding-right: 10px;
 }
