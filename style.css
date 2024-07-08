@@ -1,8 +1,21 @@
 .header{
     background-color: black;
+    color: white;
+    height: 50px;
+    margin-bottom: 0px 0px 10px 0px;
+}
+#phead{
+    padding: 0px 0px 0px 50px;
+}
+.sm{
+    height: inherit;
+    width: inherit;
 }
 .navigator{
     background-color: white;
+    margin: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: brown;
 }
 .main{
     background-image: url(Images/background.jpeg);
