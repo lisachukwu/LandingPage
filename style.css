@@ -4,6 +4,8 @@
     height: 50px;
     margin: 0px 0px 10px 0px;
     display: flex;
+    justify-content: space-between;
+    padding: 0% 10% 0% 10%;
 }
 #phead{
     padding: 0px 0px 0px 50px;
@@ -95,4 +97,10 @@ button{
 }
 #gg{
     color: white;
+}
+.social-icon {
+    color: white; /* Change color to black */
+    font-size: 20px; /* Adjust size as needed */
+    margin: 15px;
+    height: auto;
 }
