@@ -25,16 +25,6 @@
 #blp{
     padding-right: 50px;
 }
-.phone{
-    padding: 50px 5px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-}
-.email{
-    padding: 50px 0px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-}
 #ul1{
     list-style: none;
 }
@@ -71,7 +61,7 @@ li{
     justify-content: space-between;
 }
 #black:hover{
-    background-color: red;
+    background-color: rgb(244, 196, 24);
     color: black;
 }
 #yellow:hover{
@@ -115,12 +105,22 @@ button{
     margin: 15px;
     height: auto;
 }
+.phone{
+    padding: 50px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 25px;
+    height: 25px;
+}
 .email{
+    padding: 50px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
     color: black;
     width: 25px;
     height: 25px;
 }
 #email{
     padding-right: 10px;
-    fill: yellow;
 }
