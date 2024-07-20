@@ -115,3 +115,12 @@ button{
     margin: 15px;
     height: auto;
 }
+.email{
+    color: black;
+    width: 25px;
+    height: 25px;
+}
+#email{
+    padding-right: 10px;
+    fill: yellow;
+}
