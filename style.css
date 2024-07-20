@@ -121,6 +121,7 @@ button{
 }
 p, h1, h3, h4{
     font-family: sans-serif;
+}
 .social-icon {
     color: white; /* Change color to black */
     font-size: 20px; /* Adjust size as needed */
