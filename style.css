@@ -2,31 +2,89 @@
     background-color: black;
     color: white;
     height: 50px;
-    margin: 0px 0px 10px 0px;
     display: flex;
+    margin: 10px 0px 0px 0px;
+    padding: 0% 15% 0% 10%;
     justify-content: space-between;
-    padding: 0% 10% 0% 10%;
+    margin-right: auto;
 }
 #phead{
-    padding: 0px 0px 0px 50px;
     color: white;
+    margin-right: auto;
 }
 .navigator{
     background-color: white;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 0% 15% 0% 10%;
     display: flex;
+    margin-right: auto;
+}
+#blp{
+    margin-right: auto;
+}
+.phone{
+    padding: 20px 0px 0px 5px;
+    display: flex;
+    color: black;
+    width: 25px;
+    height: 25px;
+    margin-right: auto;
+}
+.email{
+    padding: 20px 0px 0px 5px;
+    display: flex;
+    color: black;
+    width: 25px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+#email{
+    padding-right: 10px;
+}
+.menu{
+    display: flex;
+    padding: 0% 15% 0% 7%;
+    justify-content: space-between;
+    margin-right: auto;
+    width: max-content;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 20px 30px 20px 30px;
+}
+#black1{
+    color: white;
+    background-color: black;
     justify-content: space-evenly;
+    padding: 20px 50px 20px 50px;
+}
+#black{
+    color: white;
+    background-color: black;
+    justify-content: space-evenly;
+}
+#yellow1, #yellow2, #yellow3, #yellow4, #yellow5{
+    color: white;
+    background-color: rgb(244, 196, 24);
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+}
+#black:hover, #black1:hover{
+    background-color: rgb(244, 196, 24);
+    color: black;
+}
+#yellow1:hover, #yellow2:hover, #yellow3:hover, #yellow4:hover, #yellow5:hover{
+    background-color: black;
+    color: rgb(244, 196, 24);
 }
 .main{
     background-image: url(Images/background.jpeg);
     background-size: cover;
     margin-top: 0%;
-}
-#blp{
-    padding-right: 50px;
-}
-#ul1{
-    list-style: none;
 }
 .main{
     background-image: url(Images/background.jpeg);
@@ -34,39 +92,6 @@
     justify-content: center;
     padding-bottom: 1000px;
     padding-top: 100px;
-}
-ul{
-    display: flex;
-    list-style-type: none;
-}
-li{
-    padding: 15px 10px 15px 10px;
-    justify-content: space-evenly;
-}
-#black{
-    color: white;
-    background-color: black;
-    justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-#yellow{
-    color: white;
-    background-color: rgb(244, 196, 24);
-    justify-content: center;
-}
-.menu{
-    padding: 0px 50px 0px 50px;
-    display: flex;
-    justify-content: space-between;
-}
-#black:hover{
-    background-color: rgb(244, 196, 24);
-    color: black;
-}
-#yellow:hover{
-    background-color: black;
-    color: rgb(244, 196, 24);
 }
 .maintext{
     color: white;
@@ -104,23 +129,4 @@ button{
     font-size: 20px; /* Adjust size as needed */
     margin: 15px;
     height: auto;
-}
-.phone{
-    padding: 50px 0px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    width: 25px;
-    height: 25px;
-}
-.email{
-    padding: 50px 0px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    width: 25px;
-    height: 25px;
-}
-#email{
-    padding-right: 10px;
 }
