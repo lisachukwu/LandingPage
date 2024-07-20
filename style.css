@@ -23,24 +23,26 @@
     margin-right: auto;
 }
 .phone{
-    padding: 20px 0px 0px 5px;
-    display: flex;
+    padding: 28px 5px 0px 5px;
+    display: inline-flex;
     color: black;
     width: 25px;
     height: 25px;
-    margin-right: auto;
+
 }
 .email{
-    padding: 20px 0px 0px 5px;
-    display: flex;
+    padding: 30px 5px 0px 5px;
+    display: inline-flex;
     color: black;
     width: 25px;
     height: 25px;
-    margin-right: auto;
-    margin-left: 50px;
+    margin-left: 10px;
 }
-#email{
-    padding-right: 10px;
+.p_email{
+    margin-right: auto;    
+    padding-left: 3px;
+    margin-right: 20px;
+
 }
 .menu{
     display: flex;
@@ -84,14 +86,9 @@ li{
 .main{
     background-image: url(Images/background.jpeg);
     background-size: cover;
-    margin-top: 0%;
-}
-.main{
-    background-image: url(Images/background.jpeg);
     display: flex;
-    justify-content: center;
-    padding-bottom: 1000px;
-    padding-top: 100px;
+    margin-right: auto;
+    justify-content: space-evenly;
 }
 .maintext{
     color: white;
