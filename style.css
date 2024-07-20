@@ -108,6 +108,7 @@ li{
 }
 h3{
     color: rgb(244, 196, 24);
+    font-family: var(--primary-font);
 }
 button{
     color: rgb(113, 106, 106);
@@ -118,12 +119,16 @@ button{
     border-radius: 5px;
     font-weight: 600;
 }
-#gg{
-    color: white;
-}
+p, h1, h3, h4{
+    font-family: sans-serif;
 .social-icon {
     color: white; /* Change color to black */
     font-size: 20px; /* Adjust size as needed */
     margin: 15px;
     height: auto;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 600;
 }
