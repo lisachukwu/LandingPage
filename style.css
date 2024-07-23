@@ -23,7 +23,7 @@
     margin-right: auto;
 }
 .phone{
-    padding: 28px 5px 0px 5px;
+    padding: 50px 5px 0px 5px;
     display: inline-flex;
     color: black;
     width: 25px;
@@ -31,7 +31,7 @@
 
 }
 .email{
-    padding: 30px 5px 0px 5px;
+    padding: 50px 5px 0px 5px;
     display: inline-flex;
     color: black;
     width: 25px;
@@ -40,7 +40,7 @@
 }
 .p_email{
     margin-right: auto;    
-    padding-left: 3px;
+    padding: 50px 5px 0px 3px;
     margin-right: 20px;
 
 }
@@ -89,6 +89,7 @@ li{
     display: flex;
     margin-right: auto;
     justify-content: space-evenly;
+    padding: 5% 0% 0% 0%;
 }
 .maintext{
     color: white;
@@ -135,7 +136,7 @@ h1{
 #p_blp{
     color: darkgray;
     margin-bottom: 0%;
-    padding-bottom: 0%;
+    padding: 10px 0px 0px 0px;
 }
 #p_blp2{
     font-weight: 300;
